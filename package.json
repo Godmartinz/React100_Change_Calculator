@@ -10,14 +10,16 @@
     "test": "npm run build && mocha test/.setup.js test/*.spec.js --exit"
   },
   "dependencies": {
+    "ajv-keywords": "^3.4.0",
     "axios": "^0.16.1",
     "babel": "^6.3.26",
-    "babel-loader": "^7.1.1",
+    "babel-loader": "^7.1.5",
     "babel-preset-airbnb": "^1.0.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.4.3",
     "bluebird": "^3.5.0",
+    "bootstrap": "^4.3.1",
     "chai": "^3.5.0",
     "expect": "^1.20.2",
     "express": "^4.15.3",
